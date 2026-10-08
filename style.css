@@ -49,6 +49,7 @@ button:focus-visible {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
+
 }
 
 .section {
@@ -706,6 +707,15 @@ textarea::placeholder {
   padding-inline: 2rem;
 }
 
+.menuPhone {
+  display: none;
+}
+
+.list-checkbox,
+.menuBtn {
+  display: none;
+}
+
 
 @media (min-width: 768px) and (max-width:1279px) {
   .en-tete-contenu {
@@ -768,13 +778,209 @@ textarea::placeholder {
     padding: 12px;
   }
 
+  .apropos-texte h2 {
+    font-size: xx-large;
+  }
+
+  .apropos-texte {
+    width: 20rem;
+  }
+
+  .valeurs {
+    position: relative;
+    left: 7rem;
+    margin-top: 4rem;
+  }
+
+  apropos-contenu .apropos-texte p {
+    font-size: xx-small;
+  }
+
+  .cartes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .menu {
+    font-size: small;
+  }
+}
+
+@media (min-width: 320px) and (max-width:767px) {
+  .logo {
+    font-size: 18px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .fa-bars {
+    color: #ff6b2c;
+    font-size: xx-large;
+  }
+
+  .fa-xmark {
+    color: #ff6b2c;
+    font-size: xx-large;
+  }
+
+  .hero-texte {
+    position: absolute;
+    top: 10;
+    left: 80;
+    z-index: 1;
+  }
+
+  .hero-image {
+    flex: none;
+    position: relative;
+    width: inherit;
+    opacity: 0.4;
+    padding: 0;
+  }
+
+  .hero-description {
+    font-size: small;
+    max-width: 20rem;
+  }
+
+  .boutons {
+    flex-wrap: nowrap;
+  }
+
+  .bouton-principal {
+    font-size: small;
+    padding: 1em;
+  }
+
+  .sur-titre,
+  .titre-hero,
+  .hero-description,
+  .boutons {
+    padding-left: 1rem;
+  }
+
+  .chiffres {
+    padding: 24px;
+  }
+
+  .chiffre .chiffre-nombre {
+    font-size: xx-large;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 800;
+    color: #FF6B2C;
+  }
+
+  .chiffre p {
+    font-size: 11px;
+  }
+
+  .bouton-secondaire {
+    font-size: small;
+    padding: 1em;
+  }
+
+  .cartes {
+    flex-wrap: wrap;
+  }
+
+  .hero {
+    padding: 0;
+    width: 100%;
+  }
+
+  .pied-bas {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .hero-texte h1 {
+    font-size: small;
+  }
+
+  .menuPhone {
+    text-align: end;
+    margin-top: 13em;
+    margin-top: 15em;
+    background-color: white;
+    gap: 2px;
+  }
+
+  .menuPhone li {
+    text-align: start;
+    border-bottom: 1px #4B5563 solid;
+    padding: 1em;
+  }
+
+  .list-checkbox:checked~.menuPhone {
+    display: block;
+  }
+
+  .closeBtn {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+
+  .menuBtn {
+    display: block;
+  }
+
+  .apropos-texte h2 {
+    font-size: x-large;
+    max-width: 425px;
+  }
+
+  .apropos-texte p {
+    max-width: 425px;
+  }
+
+  .valeurs {
+    flex-wrap: wrap;
+  }
+
   .apropos-contenu {
     flex-direction: column-reverse;
   }
-  .cartes{
-    flex-wrap: wrap;
 
+  .cartes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
-  .apropos-image{
-      }
+
+  .programme-corps {
+    padding: 12px;
+  }
+  .programme-corps p{
+    font-size: x-small;
+  }
+  .programme-corps h3{
+    min-width: 1em;
+  }
+ 
+  .prix {
+    font-size: large;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+
+  .formule span {
+    font-size: small;
+  }
+  .formule{
+    display: flex;
+  }
+  .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacte-forme{
+    max-width: 425px;
+    min-width: 320px;
+  }
 }
