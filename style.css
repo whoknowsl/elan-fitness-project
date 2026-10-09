@@ -553,6 +553,7 @@ button:focus-visible {
 /* contact CSS*/
 .contact {
   display: flex;
+  gap: 2rem;
   justify-content: space-between;
   padding: 5rem;
 }
@@ -711,7 +712,7 @@ textarea::placeholder {
   padding: 3rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 .Location div {
@@ -723,21 +724,25 @@ textarea::placeholder {
   background-color: #fdf5eb;
   border-radius: 5rem;
 }
-.Location h3{
+
+.Location h3 {
   font-size: medium;
   font-weight: 300;
 }
-.fa-location-crosshairs{
+
+.fa-location-crosshairs {
   font-size: x-large;
   color: #fc6734;
 }
-.Location h2{
+
+.Location h2 {
   margin-top: 1rem;
   text-align: center;
   font-weight: 300;
   font-size: 44px;
 }
-.map{
+
+.map {
   margin-top: 1rem;
 }
 
@@ -752,7 +757,7 @@ textarea::placeholder {
 }
 
 /*small screen display*/
-@media (min-width: 768px) and (max-width:1279px) {
+@media (min-width: 751px) and (max-width:1024px) {
   .en-tete-contenu {
     padding-inline: 3rem;
   }
@@ -781,7 +786,7 @@ textarea::placeholder {
 }
 
 /*tablet display*/
-@media (max-width: 1024px) and (min-width:768px) {
+@media (min-width:751px) {
 
   .boutons {
     flex-wrap: nowrap;
@@ -838,13 +843,13 @@ textarea::placeholder {
     grid-template-rows: repeat(2, 1fr);
   }
 
-  .menu {
-    font-size: small;
+  .Location h2 {
+    font-size: x-large;
   }
 }
 
 /*phone display*/
-@media(max-width:480px) {
+@media(max-width:704px) {
   .logo {
     font-size: 18px;
   }
@@ -1025,6 +1030,11 @@ textarea::placeholder {
     max-width: 425px;
     min-width: 320px;
   }
+
+  .Location h2 {
+    font-size: 20px;
+  }
+
 }
 
 /*add some hovering*/
