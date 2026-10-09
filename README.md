@@ -7,8 +7,10 @@ Ce projet s'inscrit dans le cadre de la modernisation de la présence digitale d
 
 ## 🌐 Liens du Projet
 
-- **Dépôt GitHub :** `[Lien vers votre repo GitHub]`
-- **Site en ligne (GitHub Pages) :** `[Lien vers votre GitHub Pages]`
+[![Live Demo](https://img.shields.io/badge/Demo-GitHub%20Pages-brightgreen?style=for-the-badge&logo=github)](https://whoknowsl.github.io/elan-fitness-project/)
+
+- **Site en ligne (Live Demo) :** [https://whoknowsl.github.io/elan-fitness-project/](https://whoknowsl.github.io/elan-fitness-project/)
+- **Dépôt GitHub (Code source) :** [https://github.com/whoknowsl/elan-fitness-project](https://github.com/whoknowsl/elan-fitness-project)
 
 ---
 
