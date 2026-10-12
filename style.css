@@ -757,7 +757,7 @@ textarea::placeholder {
 }
 
 /*small screen display*/
-@media (min-width: 751px) and (max-width:1024px) {
+@media (min-width: 769px) and (max-width:1024px) {
   .en-tete-contenu {
     padding-inline: 3rem;
   }
